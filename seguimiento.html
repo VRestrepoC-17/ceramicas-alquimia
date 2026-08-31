@@ -1,0 +1,53 @@
+<!--  ESTA PÁGINA ES MERAMENTE ILUSTRATIVA. El objetivo principal del sitio es enlazarla con un formulario interno donde nuestro cliente (dueño del emprendimiento) podrá subir fotos actualizadas e información relevante del pedido, las cuáles se verán posteriormente reflejadas en esta página de seguimiento para facilidad de consulta del usuario. Se empezará a integrar esta función una vez aprendamos Java    -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerámicas Alquimia · Seguimiento de pedido</title>
+    <link rel="shortcut icon" href="./img/logo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.jpeg" alt="Logo Cerámicas Alquimia" width="120" id="logo">
+        <h1>Cerámicas Alquimia</h1>
+        <p>Menos plástico, más cerámica</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section class="caja">
+            <h2>Conóce la etapa de tu pedido</h2>
+            <div id="buscadorPedido">
+                <form>
+                    <label for="pedido">Ingresa aquí tu número de pedido</label>
+                    <input type="number" id="pedido" name="pedido" required>
+                    <button type="submit" class="botonEnviar">Buscar</button>
+                </form>
+            </div>
+            <br>
+            <h3>Etapas del proceso</h3>
+            <ol id="listaEtapas">
+                <li>Recepción del pedido</li>
+                <li id="etapaActual">Modelado</li>
+                <li>Secado</li>
+                <li>Horneado</li>
+                <li>Decoración</li>
+                <li>Envío</li>
+            </ol>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>El Carmen de Viboral · Colombia</p>
+        <p>2026 © Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

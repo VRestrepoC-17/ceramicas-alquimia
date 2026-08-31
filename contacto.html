@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="shortcut icon" href="./img/logo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.jpeg" alt="Logo Cerámicas Alquimia" width="120" id="logo">
+        <h1>Cerámicas Alquimia</h1>
+        <p>Menos plástico, más cerámica</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="seguimiento.html">Conoce el estado de tu pedido</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <form class="caja">
+            <h2>Habla con nosotros</h2> 
+            <div class="grupo">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="grupo">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="grupo">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="grupo">
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="botonEnviar">Enviar mensaje</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>El Carmen de Viboral · Colombia</p>
+        <p>2026 © Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
